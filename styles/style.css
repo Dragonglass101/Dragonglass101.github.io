@@ -137,6 +137,11 @@ nav {
     cursor: pointer;
 }
 
+.dragon-glass {
+    border-radius: 50%;
+    width: 50px;
+}
+
 .letterOne {
     color: var(--cyan-color);
     position: absolute;
