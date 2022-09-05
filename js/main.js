@@ -13,7 +13,7 @@ const clearActive = function() {
 icons.forEach((icon) => {
     icon.addEventListener("click", () => {
         clearActive();
-        icon.style.borderBottom = `2px solid cyan`;
+        icon.style.borderBottom = `2px solid rgb(255, 190, 70)`;
         icon.classList.add("active");
     });
 });
