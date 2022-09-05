@@ -615,6 +615,7 @@ canvas {
     border-radius: 20px;
     min-height: 450px;
     box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 @media (max-width: 768px) {

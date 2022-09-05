@@ -32,4 +32,13 @@ const projects = [{
         live: "https://sportify-8829a.web.app/",
         github: "https://github.com/Bondok6/Reservify",
     },
+    {
+        img: "../imgs/boid-evolution.png",
+        title: "Sportify",
+        tech_stack: "Firebase, React JS",
+        date: "March 21, 2022",
+        description: "A web application to manage sports tournaments and show live scores of different events. Was used for IIITB Sports Fest, Spandan. It provides the following functionalities: Users can view live scores, Admins can create and manage fixtures, Admins can update the score board",
+        live: "https://sportify-8829a.web.app/",
+        github: "https://github.com/Bondok6/Reservify",
+    },
 ]

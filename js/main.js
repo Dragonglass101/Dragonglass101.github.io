@@ -302,7 +302,7 @@ const projects = [{
         tech_stack: "SDL Graphics Library",
         date: "November 19, 2021",
         description: "",
-        live: "",
+        live: "#work",
         github: "https://github.com/Dragonglass101/CPP-Project",
     }, {
         img: "../imgs/critical-point-visualization.png",
@@ -319,7 +319,15 @@ const projects = [{
         date: "March 21, 2022",
         description: "A web application to manage sports tournaments and show live scores of different events. Was used for IIITB Sports Fest, Spandan. It provides the following functionalities: Users can view live scores, Admins can create and manage fixtures, Admins can update the score board",
         live: "https://sportify-8829a.web.app/",
-        github: "https://github.com/Bondok6/Reservify",
+        github: "",
+    }, {
+        img: "../imgs/boid-evolution.png",
+        title: "Boid Evolution",
+        tech_stack: "HTML5 Canvas, JS",
+        date: "March 21, 2022",
+        description: "Simulation of flocking behaviour of boids based on Craig Reynolds research paper Flocks, Herds, and Schools: A Distributed Behavioral Model, in Computer Graphics. \n Optimized using Quadtree for Spatial partitioning",
+        live: "https://dragonglass101.github.io/Boid-Evolution/",
+        github: "https://github.com/Dragonglass101/Boid-Evolution",
     },
 ]
 const cards = document.querySelector(".cards");
@@ -328,7 +336,7 @@ const createCard = (projects) => {
     console.log("creating cards");
     projects.forEach((project) => {
         let html = `
-        <div class="col-sm-12 col-md-6 col-lg-4 mb-4">
+        <div class="col-sm-12 col-md-6 col-lg-4 mb-4" onclick="window.location='${project.live}'">
           <div class="card text-white card-has-bg click-col" style="background-image:url(${project.img});">
             <img class="card-img d-none" src=${project.img}>
             <div class="card-img-overlay d-flex flex-column">
